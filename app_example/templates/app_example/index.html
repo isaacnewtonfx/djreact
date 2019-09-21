@@ -1,0 +1,24 @@
+{% extends "layout/master.html" %}
+{% load static %}
+{% block title %}Example Django Page{% endblock %}
+
+{% block extra_styles %}
+<link rel="stylesheet" type="text/css" href="{% static 'app_example/css/app.css' %}" />
+{% endblock %}
+
+{% block content %}
+
+<div style="text-align: center">
+
+    <h1>DJANGO REACT INTEGRATION</h1>
+
+    <img style="max-width: 100%" src= "{% static 'app_example/img/illustration.png' %}" alt="illustration">
+
+</div>
+
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script type="text/javascript" src="{% static 'app_example/js/app.js' %}" ></script>
+{% endblock %}

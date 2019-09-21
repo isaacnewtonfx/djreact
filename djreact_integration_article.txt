@@ -1,0 +1,1 @@
+https://owais.lone.pw/blog/webpack-plus-reactjs-and-django/

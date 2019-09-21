@@ -1,0 +1,14 @@
+*.pyc
+/db.sqlite3
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+/.vscode/
+
+# npm
+node_modules/
+npm-debug.log
+
+# Webpack
+/reactjs/dist/*
+/webpack-stats-dev.json
