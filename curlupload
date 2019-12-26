@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for file in /var/www/djreact/*
+do
+ curl --ftp-create-dirs --insecure --no-epsv -T ${file} --key ~/.ssh/newton_id_rsa.pem "ftp://newton:admin007@survtechengineering.com:22/~/testcurlupload/"
+done
